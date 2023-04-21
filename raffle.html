@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Daflogui Cake - Raffle</title>
+        <link rel="stylesheet" href="./ASSETS/STYLE/STYLE.CSS">
+        <link rel="shortcut icon" href="./ASSETS/IMG/icon.png" type="image/x-icon">
+    </head>
+    <body class="flex">
+        <header>               
+            <nav class="menu">
+            <a href="./index.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./info.html">More Information</a>
+            <a href="./benefitsandtips.html">Benefits and Tips</a>     
+            <a href="#">Raffle</a>                                     
+            </nav>   
+            <img id="logo" src="./ASSETS/IMG/logo.png" alt="logo">                                                  
+        </header>
+        <main class="total">
+
+            <h1 class="raffle1">Raffle</h1>
+            <h3 class="raffle2">You can participate in a raffle. The prize is a coffee pot.</h3>
+            <div class="form">
+                <div class="imgraffle">
+                <img class="img0" src="./ASSETS/Coffee-Task4/cup-w-coffee.jpg" alt="cupcoffee"><br>
+                <img class="img1" src="./ASSETS/Coffee-Task4/heart-coffee.jpg" alt="heartcoffee">
+                </div>
+                <form action="./show_data.html" method="get">
+                    <fieldset>                        
+                        <label class="name1" for="name">First Name</label><br>
+                        <input class="name2" type="text" id="name"><br><br>
+                        <label class="lname1" for="lname">Last Name</label><br>
+                        <input class="lname2" type="text" id="lname"><br><br>
+                        <label class="email1" for="email">Email</label><br>
+                        <input class="email2" type="email" id="email"><br>
+                    </fieldset>
+                    <fieldset>
+                        <label class="colorpot" for="color">What color would you like the coffee pot?</label><br>
+                        <select class="colours" name="color" id="color">
+                            <option value="">--Choose here--</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="lilac">Lilac</option>
+                            <option value="red">Red</option>
+                            <option value="aqua">Aqua</option>
+                            <option value="black">Black</option>
+                        </select><br><br>
+                        <label for="country">Country:</label><br>
+                        <select class="countries" name="country" id="country">
+                            <option value="">--Choose here--</option>
+                            <option value="Arg">Argentina</option>
+                            <option value="Chi">Chile</option>
+                            <option value="Col">Colombia</option>
+                            <option value="Per">Peru</option>
+                            <option value="Brasil">Brasil</option>
+                        </select><br><br>
+                        <div class="payment" >
+                        <label for="cash">Payment Options:</label><br>
+                        <div>
+                        <input type="radio" id="cash" name="pay" value="cash">
+                        <label for="cash">Cash</label>
+                        </div>
+                        <div>
+                        <input type="radio" id="ccard" name="pay" value="ccard">
+                        <label for="ccard">Credit Card</label>
+                        </div>
+                        <div>
+                        <input type="radio" id="dcard" name="pay" value="ccard">
+                        <label for="dcard">Debit Card</label><br><br>
+                    </div>
+                        </div>
+                        <label for="serv">Services</label><br>
+                        <textarea class="mesj" name="services" id="serv" cols="30" rows="10"></textarea><br><br>
+                        <input type="checkbox" id="terms" name="terms" value="terms">
+                        <label for="terms">I accept terms and conditions...</label><br><br>
+                        <input class="sendbutton" type="submit" value="Send">
+                </fieldset>                   
+                </form>
+            </div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225470.77384459626!2d-82.45428045!3d27.99448255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1682019227873!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </main>
+       
+    </body>
+</html>
